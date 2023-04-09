@@ -51,7 +51,7 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="30" y="60" width="770" height="510"/>
+              <AbsoluteConstraints x="180" y="100" width="710" height="400"/>
             </Constraint>
           </Constraints>
 
@@ -61,10 +61,13 @@
               <Properties>
                 <Property name="columns" type="int" value="20"/>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                  <Font name="Segoe UI" size="16" style="1"/>
+                  <Font name="Segoe UI" size="14" style="0"/>
                 </Property>
                 <Property name="rows" type="int" value="5"/>
                 <Property name="text" type="java.lang.String" value="En Share Smile, creemos en la empat&#xed;a y la solidaridad como valores fundamentales para ayudar&#xa; a las personas afectadas por desastres naturales. &#xa;Sabemos que estas situaciones pueden ser muy dif&#xed;ciles, y es por eso que nuestra &#xa;aplicaci&#xf3;n busca ser una fuente de esperanza y ayuda para las comunidades que han sufrido&#xa;estas tragedias.&#xa;Somos una plataforma que funciona gracias a la colaboraci&#xf3;n y la generosidad de nuestros &#xa;donadores. &#xa;Entendemos que cada aporte, por peque&#xf1;o que sea, puede hacer una gran diferencia &#xa;para las personas que necesitan ayuda. &#xa;Por eso, nuestra labor no ser&#xed;a posible sin el apoyo de personas comprometidas con nuestra causa.&#xa;&#xa;En Share Smile, trabajamos con dedicaci&#xf3;n y entusiasmo para garantizar que los donativos &#xa;sean entregados de manera eficiente y efectiva a las personas que m&#xe1;s lo necesitan.&#xa;Nos esforzamos por mantener una relaci&#xf3;n cercana y transparente con nuestros donadores, &#xa;para que puedan sentirse parte de nuestra comunidad y vean&#xa;los resultados de sus contribuciones.&#xa;&#xa;Nuestro objetivo es ser una luz de esperanza en momentos dif&#xed;ciles, y estamos comprometidos&#xa;en seguir trabajando con esfuerzo y dedicaci&#xf3;n para lograrlo. &#xa;Juntos, podemos marcar una gran diferencia en la vida de las personas &#xa;afectadas por desastres naturales.&#xa;&#xa1;&#xda;nete a nuestra causa en Share Smile!"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
               </Properties>
             </Component>
           </SubComponents>
@@ -94,14 +97,14 @@
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="320" y="0" width="420" height="60"/>
+              <AbsoluteConstraints x="270" y="0" width="510" height="60"/>
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/Imagenes/Foto 1.jpg"/>
+              <Image iconType="3" name="/Imagenes/fondo2.jpeg"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel2"/>
           </Properties>

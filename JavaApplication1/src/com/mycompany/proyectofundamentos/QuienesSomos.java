@@ -15,6 +15,7 @@ public class QuienesSomos extends javax.swing.JFrame {
      */
     public QuienesSomos() {
         initComponents();
+        this.setLocationRelativeTo(null);
     }
 
     /**
@@ -38,12 +39,13 @@ public class QuienesSomos extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jTextArea1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         jTextArea1.setRows(5);
         jTextArea1.setText("En Share Smile, creemos en la empatía y la solidaridad como valores fundamentales para ayudar\n a las personas afectadas por desastres naturales. \nSabemos que estas situaciones pueden ser muy difíciles, y es por eso que nuestra \naplicación busca ser una fuente de esperanza y ayuda para las comunidades que han sufrido\nestas tragedias.\nSomos una plataforma que funciona gracias a la colaboración y la generosidad de nuestros \ndonadores. \nEntendemos que cada aporte, por pequeño que sea, puede hacer una gran diferencia \npara las personas que necesitan ayuda. \nPor eso, nuestra labor no sería posible sin el apoyo de personas comprometidas con nuestra causa.\n\nEn Share Smile, trabajamos con dedicación y entusiasmo para garantizar que los donativos \nsean entregados de manera eficiente y efectiva a las personas que más lo necesitan.\nNos esforzamos por mantener una relación cercana y transparente con nuestros donadores, \npara que puedan sentirse parte de nuestra comunidad y vean\nlos resultados de sus contribuciones.\n\nNuestro objetivo es ser una luz de esperanza en momentos difíciles, y estamos comprometidos\nen seguir trabajando con esfuerzo y dedicación para lograrlo. \nJuntos, podemos marcar una gran diferencia en la vida de las personas \nafectadas por desastres naturales.\n¡Únete a nuestra causa en Share Smile!");
+        jTextArea1.setBorder(null);
         jScrollPane1.setViewportView(jTextArea1);
 
-        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 60, 770, 510));
+        jPanel1.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 100, 710, 400));
 
         jButton1.setText("Volver al menu ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -56,9 +58,9 @@ public class QuienesSomos extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Yu Gothic UI", 1, 48)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("¿Quiénes somos?");
-        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 0, 420, 60));
+        jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 510, 60));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/Foto 1.jpg"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/fondo2.jpeg"))); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -80, 1000, 730));
 
