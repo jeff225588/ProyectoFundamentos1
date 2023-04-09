@@ -171,7 +171,8 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
-        // TODO add your handling code here:
+       Zonasafectadas zonasAfectadas = new Zonasafectadas(); // Creas una instancia del JFrame "ZonasAfectadas"
+    zonasAfectadas.setVisible(true); // Lo haces visible en la pantalla
         
     }//GEN-LAST:event_jButton6ActionPerformed
 
